@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
-}
+@media screen and (max-width:1020px){
+    .menu, .btn-contato{
+        display: none;
+    }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+    .flex{
+        flex-direction: column;
+    }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+    h2.titulo{
+        font-size: 34px;
+        line-height: 30px;
+    }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+    .topoSite .flex{
+        flex-direction: column-reverse;
+    }
 
-.App-link {
-  color: #61dafb;
-}
+    section.sobre{
+        padding: 80px 8%;
+    }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    .sobre .txtSobre h2{
+        font-size: 34px;
+        line-height: 35px;
+        text-align: center;
+    }
+
+    .img-sobre {
+        text-align: center;
+    }
+    .img-sobre img{
+        width: 100%;
+    }
+
+    .btn-social{
+        text-align: center;
+    }
+    section.topoSite{
+        padding:20px 8% ;
+    }
+
+    .topoSite h1{
+        font-size: 30px;
+    }
+
+    section.topoSite .flex{
+        gap: 40px;
+    }
+
+    section.habilidades{
+        padding: 40px 8%;  
+    }
+
 }

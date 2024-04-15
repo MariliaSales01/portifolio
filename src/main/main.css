@@ -1,0 +1,36 @@
+section.topoSite{
+    padding: 40px 4%;
+}
+
+.flex{
+    display: flex;
+}
+
+section.img-topoSite .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topoSite h1{
+    font-size: 3rem;
+    line-height: 40px;
+}
+
+.topoSite h1 span{
+    color: rgb(132, 0, 255);
+}
+
+.topoSite .txt-topoSite p{
+    margin: 40px 0;
+}
+
+.img-topoSite{  
+    text-align: center;
+}
+
+.topoSite .img-topoSite img{
+    width: 80%;
+    border-radius: 100%;
+    position: relative;
+}
