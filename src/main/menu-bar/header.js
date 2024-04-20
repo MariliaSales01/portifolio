@@ -2,27 +2,27 @@ import './header.css'
 
 export default function Header() {
     var logo = '<Marilia/>'
+
     return(
         <header>
             <div className='interface'>
                 <div className='logo'>
-                   <a href='#'>{logo}</a> 
+                   <a href='#topoSite'>{logo}</a> 
                 </div>
 
-                <nav  className='menu'>
+                <nav  className='menu-desktop'>
                     <ul>
-                    <li><a href='#'>Início</a></li>
-                        <li><a href='#'>Especialidades</a></li>
-                        <li><a href='#'>Projetos</a></li>
-                        <li><a href='#'>Sobre</a></li>
+                        <li><a href='#sobre'>Sobre</a></li>
+                        <li><a href='#habilidades'>Especialidades</a></li>
+                        <li><a href='#portfolio'>Projetos</a></li>
+                        <li><a href='#tecnologia'>Tecnologias</a></li>
                     </ul>
                 </nav>
 
-                <div className='btn-contato '>
-                <a href='#'><button>Contato</button></a>                 
+                <div className='btn-contato'>
+                    <a href='#contato'><button>Contato</button></a>                 
                 </div>
 
-                
             </div>         
         </header>
     )

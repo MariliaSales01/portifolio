@@ -1,10 +1,12 @@
 .interface{
     max-width: 1200px;
     margin: 0 auto;
+    box-sizing: border-box;
 }
 
+
 header{
-    padding: 40px 4%;
+    position: fixed;
 }
 
 .logo a {
@@ -19,24 +21,23 @@ header > .interface{
     align-items: center;
 }
 
-a{  
+header a{  
     text-decoration: none;
     color: #5c5c5c;
     display: inline-block;
     transform: 2s;
 }
 
-header a:hover{
+header nav.menu-desktop a:hover{
     color: #fff;
     transform: scale(1.05);
 }
 
-header nav li{
+header nav ul{
     list-style: none;
-    
 }
 
-header nav ul li{
+header nav.menu-desktop ul li{
     display: inline-block;
     padding: 0 40px;
 }

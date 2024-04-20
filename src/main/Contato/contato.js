@@ -3,7 +3,7 @@ import './contato.css'
 export default function Contato(){
     var texto = '</Contato>'
     return(
-        <section className='formulario'>
+        <section className='formulario' id='contato'>
             <h1>{texto}</h1>
             <div className='interface'>
                 <h2 className='titulo'>FALA <span>COMIGO.</span></h2>

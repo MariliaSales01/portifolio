@@ -1,5 +1,6 @@
 import './portfolio.css'
 import img from '../../assets/foto.png'
+import quiz from '../../assets/Quiz.jpeg'
 
 export default function Portfolio(){
     var texto = '</Portfolio>'
@@ -9,60 +10,29 @@ export default function Portfolio(){
 
             <div className='portfolio-container'>
                 <div className='portfolio-box'>
-                        <img src={img}></img>
-                    <div className='portifolio-layer'>
-                        <h4>Quiz</h4>
-                        <p>lorem</p>
-                        <i class="fa-solid fa-up-right-from-square"></i>
-                    </div>
+                <a href='#'><img src={quiz}></img></a>
                 </div>
 
                 <div className='portfolio-box'>
-                        <img src={img}></img>
-                    <div className='portifolio-layer'>
-                        <h4>Quiz</h4>
-                        <p>lorem</p>
-                        <i class="fa-solid fa-up-right-from-square"></i>
-                    </div>
+                    <a href='#'><img src={img}></img></a>
                 </div>
 
                 <div className='portfolio-box'>
-                    <img src={img}></img>
-                    <div className='portifolio-layer'>
-                        <h4>Quiz</h4>
-                        <p>lorem</p>
-                        <i class="fa-solid fa-up-right-from-square"></i>
-                    </div>
+                    <a href='#'><img src={img}></img></a>
                 </div>
 
                 <div className='portfolio-box'>
-                    <img src={img}></img>
-                    <div className='portifolio-layer'>
-                        <h4>Quiz</h4>
-                        <p>lorem</p>
-                        <i class="fa-solid fa-up-right-from-square"></i>
-                    </div>
+                    <a href='#'><img src={img}></img></a>
                 </div>
 
 
                 <div className='portfolio-box'>
-                    <img src={img}></img>
-                    <div className='portifolio-layer'>
-                        <h4>Quiz</h4>
-                        <p>lorem</p>
-                        <i class="fa-solid fa-up-right-from-square"></i>
-                    </div>
+                    <a href='#'><img src={img}></img></a>
                 </div>
 
                 <div className='portfolio-box'>
-                    <img src={img}></img>
-                    <div className='portifolio-layer'>
-                        <h4>Quiz</h4>
-                        <p>lorem</p>
-                        <i class="fa-solid fa-up-right-from-square"></i>
-                    </div>
+                    <a href='#'><img src={img}></img></a>
                 </div>
-
 
             </div>
         </section>

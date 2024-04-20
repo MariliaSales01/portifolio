@@ -4,7 +4,7 @@ import foto from '../../assets/img.jpeg'
 export default function Sobre(){
     var title = '<Sobre/>'
     return(
-        <section className='sobre'>
+        <section className='sobre' id='sobre'>
             <h1 id='title'>{title}</h1>
             <div className='interface'>
               <div className='flex'>
@@ -23,8 +23,8 @@ export default function Sobre(){
                     ele tenha uma experiencia satisfatória ao utilizar o site.</p>
 
                     <div className='btn-social'>
-                        <a href='#'> <button><i class="bi bi-github"></i></button></a>
-                        <a href='#'><button><i class="bi bi-linkedin"></i></button></a>
+                        <a href='https://github.com/MariliaSales01' target="_blank"> <button><i class="bi bi-github"></i></button></a>
+                        <a href='https://www.linkedin.com/in/marilia-sales-348432242/ target="_blank"'><button><i class="bi bi-linkedin"></i></button></a>
                     </div>
                 </div>
 

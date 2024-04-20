@@ -4,7 +4,7 @@ import foto from '../assets/img.jpeg'
 export default function Main(){
     return(
         <main>
-            <section className='topoSite'>
+            <section className='topoSite' id='topoSite'>
                 <div className='interface'>
                     <div className='flex'>
                         <div className='txt-topoSite'>

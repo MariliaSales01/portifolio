@@ -1,5 +1,5 @@
 @media screen and (max-width:1020px){
-    .menu, .btn-contato{
+    .menu-desktop, .btn-contato{
         display: none;
     }
 

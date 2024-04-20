@@ -11,7 +11,7 @@ import mysql from '../assets/tecnologia/mysql_PNG23.png'
 
 export default function Stack(){
     return(
-        <section className='stack'>
+        <section className='stack' id='tecnologia'>
             <h1>Minha Stack de tecnólogias </h1>
             <div className='tecnologias'>
                 <img src={css}></img>
