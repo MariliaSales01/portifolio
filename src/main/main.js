@@ -5,7 +5,7 @@ export default function Main(){
     return(
         <main>
             <section className='topoSite' id='topoSite'>
-                <div className='interface'>
+                <div className='Interface'>
                     <div className='flex'>
                         <div className='txt-topoSite'>
                             <h1>Ola me chamo <span>Marilia</span></h1>
