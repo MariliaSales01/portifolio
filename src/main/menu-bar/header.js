@@ -1,29 +1,39 @@
 import './header.css'
+import React, { useState } from "react";
 
 export default function Header() {
     var logo = '<Marilia/>'
+    const [menuOpen, setMenuOpen] = useState(false);
+
 
     return(
-        <header>
-            <div className='interface'>
-                <div className='logo'>
-                   <a href='#topoSite'>{logo}</a> 
-                </div>
-
-                <nav  className='menu-desktop'>
-                    <ul>
-                        <li><a href='#sobre'>Sobre</a></li>
-                        <li><a href='#habilidades'>Especialidades</a></li>
-                        <li><a href='#portfolio'>Projetos</a></li>
-                        <li><a href='#tecnologia'>Tecnologias</a></li>
-                    </ul>
-                </nav>
-
-                <div className='btn-contato'>
-                    <a href='#contato'><button>Contato</button></a>                 
-                </div>
-
-            </div>         
-        </header>
-    )
+            <header>
+                 <nav>
+      <a href="#" className="title">
+        {logo}
+      </a>
+      <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul className={menuOpen ? "open" : ""}>
+        <li>
+          <a href="#sobre">Sobre</a>
+        </li>
+        <li>
+          <a href="#portfolio">Projetos</a>
+        </li>
+        <li>
+          <a href="#contato">Contato</a>
+        </li>
+        <li>
+          <a href="#habilidades">Habilidades</a>
+        </li>
+      </ul>
+    </nav>
+            </header>
+            
+        
+        );
 }
